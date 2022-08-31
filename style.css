@@ -10,3 +10,8 @@ img {
     height: 500px;
     width: auto;
 }
+
+a {
+    font-weight: bold;
+    font-size: 20px;
+}
