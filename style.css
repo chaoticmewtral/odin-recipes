@@ -1,3 +1,12 @@
 body {
     background-color: rgb(14, 171, 185);
 }
+
+h1, h2, h3 {
+    color: white;
+}
+
+img {
+    height: 500px;
+    width: auto;
+}
