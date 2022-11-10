@@ -3,6 +3,15 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.recipe {
+    display: grid;
+    grid-template-areas: 
+    "heading heading"
+    "description description"
+    "ingredients image"
+    "directions directions"
+}
+
 h1, h2, h3 {
     color: white;
 }
