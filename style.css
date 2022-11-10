@@ -1,6 +1,8 @@
 body {
     background-color: rgb(14, 171, 185);
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    padding: 5em;
 }
 
 .recipe {
@@ -9,7 +11,9 @@ body {
     "heading heading"
     "description description"
     "ingredients image"
-    "directions directions"
+    "directions directions";
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
 }
 
 h1, h2, h3 {
@@ -19,9 +23,29 @@ h1, h2, h3 {
 img {
     height: 500px;
     width: auto;
+    grid-area: image;
+    border-radius: 15px;
+    box-shadow: 1px 1px 5px;
 }
 
 a {
     font-weight: bold;
     font-size: 20px;
+}
+
+h1 {
+    grid-area: heading;
+}
+
+.desc {
+    grid-area: description;
+}
+
+.ingr {
+    grid-area: ingredients;
+}
+
+.dir {
+    grid-area: directions;
+    justify-self: center;
 }
