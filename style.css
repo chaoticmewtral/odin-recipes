@@ -1,0 +1,59 @@
+:root {
+    --bgc: aliceblue;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav>ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+}
+
+.card-container {
+    display: grid;
+    gap: 1em;
+    grid-template-columns: repeat(auto-fill, minmax(auto, 250px));
+}
+
+figure {
+    display: grid;
+    grid-template-columns: auto;
+    justify-items: end;
+}
+
+.recipe-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bggrits {
+    background-image: url("./images/bacon-gouda-grits.jpg");
+}
+
+.chili {
+    background-image: url("./images/chili.jpg");
+}
+
+.spbisque {
+    background-image: url("./images/sweet-potato-bisque.jpg");
+}
+
+figcaption {
+    font-size: .8em;
+    margin-top: .6em;
+    margin-right: .4em;
+}
+
+a {
+    text-decoration: none;
+}
