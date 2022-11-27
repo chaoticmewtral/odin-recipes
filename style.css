@@ -57,3 +57,33 @@ figcaption {
 a {
     text-decoration: none;
 }
+
+/* Sub-page styling */
+
+.subpage {
+    display: grid;
+    grid-template-areas: 
+        "h1 ."
+        "desc img"
+        "ing dir";
+}
+
+.subpage>h1 {
+    grid-area: h1;
+}
+
+.subpage>.recipe-img {
+    grid-area: img;
+}
+
+.subpage>.desc {
+    grid-area: desc;
+}
+
+.subpage>.ingr {
+    grid-area: ing;
+}
+
+.subpage>.dir {
+    grid-area: dir;
+}
